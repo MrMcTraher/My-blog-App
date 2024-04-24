@@ -1,0 +1,17 @@
+.posts {
+  display: flex;
+  margin-bottom: 40px;
+  &__left-container {
+    width: 736px;
+    display: flex;
+    gap: 32px;
+  }
+
+  &__right-container {
+    width: 352px;
+    padding-left: 32px;
+  }
+
+  &__right-post {
+  }
+}

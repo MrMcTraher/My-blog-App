@@ -1,0 +1,51 @@
+.bigPost {
+  justify-content: space-between;
+  display: flex;
+  &__content {
+    max-width: 448px;
+  }
+
+  &__date {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8d8e97;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8d8e97;
+  }
+
+  &__image-container {
+  }
+
+  &__img {
+    width: 256px;
+    height: 244px;
+    object-fit: cover;
+  }
+
+  &__icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__thumbs {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__marks {
+    display: flex;
+    gap: 24px;
+  }
+}
